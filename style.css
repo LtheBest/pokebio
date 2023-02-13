@@ -52,3 +52,33 @@
   .header .navbar a:hover {
     color: #bac34e;
   }
+
+  .accueil {
+    /* position: absolute;
+    top:40px; */
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    outline: solid;
+  }
+
+  .menu {
+    width: 100%;
+    height: 100vh;
+    background-color: #666;
+
+  }
+
+  .apropos {
+    width: 100%;
+    height: 100vh;
+    background-color: #b52020;
+
+  }
+
+  .contact {
+    width: 100%;
+    height: 100vh;
+    background-color: #67d032;
+
+  }
