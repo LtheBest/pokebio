@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PokéBio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,23 +15,26 @@
         <div class="container">
             <nav class="navbar">
 
-                <a href="home.html">Accueil</a>
-                <a href="menu.html">Menu</a>
+                <a href="#accueil">Accueil</a>
+                <a href="Commander.html">Commander</a>
                 <a href="#apropos">À propos</a>
-                <a href="#contact">contact</a>
+                <a href="#contact">Contact</a>
 
             </nav>
+
             <img id="instagram" src="instagram.svg" />
         </div>
     </header>
 
 <!-- accueil part -->
         <div class="accueil">
-            <div class="container">
-                <div class="concour">Gros jeu concours Instagram !</div>
-                <a href="something" class="button4" style="background-color:#5a5a5a">Je participe</a>
-            </div>
-            <img id="logo" src="0.jpeg" />
+            <div id="accueil">
+                <div class="container">
+                    <div class="concour">Gros jeu concours Instagram !</div>
+                    <a href="something" class="button4" style="background-color:#5a5a5a">Je participe</a>
+                </div>
+                <img id="logo" src="0.jpeg" />
+             </div>
         </div>
    
     
@@ -65,9 +68,32 @@
 
 
 <!--  contact section -->
-    <div class="contact">
-        <p>contact</p>
+<div class="contact">
+    <div id="contact">
+        <h1 class="title">Contact</h1>
+        <form action="">
+            <div class="left-right">
+                <div class="left">
+                    <label>Nom </label>
+                    <input type="text">
+                    <label>Portable</label>
+                    <input type="text">
+                    <label>Email</label>
+                    <input type="email">
+                    <label>Message</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <button>Envoyer</button>
+        </form>
     </div>
+</div>
 
+<footer>
+    <p> Réalisé par <span>G-16</span> | Tous les droits sont réservés.</p>
+    <a href="https://www.pokebio.com/terms" style="color: #ccc;" target="_blank">Termes</a>            |
+    <a href="https://www.pokebio.com/privacy" style="color: #ccc;" target="_blank">Confidentialit&#233;</a>
+    
+</footer>
 </body>
 </html>

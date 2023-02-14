@@ -22,7 +22,7 @@
     background: #ffffff;
     display: flex;
     padding: 0% 16px;
-    z-index: 0;
+    z-index: -1;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
@@ -194,6 +194,8 @@ img.imageP {
 
 
   /* Contact CSS */
+
+
 #contact {
     display:flex;
     flex-direction: column;
